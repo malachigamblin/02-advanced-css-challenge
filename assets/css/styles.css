@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: rgb(203, 198, 198);
     line-height: 1.5;
 }
 
@@ -9,8 +9,21 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(63, 57, 78);
+    background-color: rgb(44, 41, 49);
+    padding: 20px;
+    color: rgb(255, 255, 255);
 }
+
+.header h1 {
+    font-size: 48px;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
 
 header nav ul {
     list-style-type: none;
@@ -18,6 +31,20 @@ header nav ul {
 
 header nav ul li {
     display: inline-block;
+    text-decoration: underline;
+    margin-left: 25px;
+}
+
+.hero img {
+    height: 205px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+
+p {
+    line-height: 1.5;
 }
 
 .page {
@@ -57,3 +84,50 @@ header nav ul li {
     flex-basis: 100%;
     flex-wrap: wrap;
 }
+
+.item:nth-child(2) {
+    flex-basis: 50%;
+}
+
+.item:nth-child(3) {
+    flex-basis: 50%;
+}
+
+.item:nth-child(4) {
+    flex-basis: 50%;
+}
+
+.item:nth-child(5) {
+    flex-basis: 50%;
+}
+
+.contactMe ul li {
+    display: inline-block;
+}
+
+.content h2 {
+    font-size: 30px;
+}
+
+.item {
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+.item:hover {
+    box-shadow: inset 0px 0px 8px black, 0px 0px 15px black;
+}
+
+#contactMe div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    font-size: 40px;
+}
+
+.item {
+    flex-grow: 1;
+}
+
