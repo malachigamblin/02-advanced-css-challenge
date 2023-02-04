@@ -1,6 +1,5 @@
 body {
-    background-color: rgb(203, 198, 198);
-    line-height: 1.5;
+    background-color: rgb(189, 186, 186);
 }
 
 header {
@@ -9,7 +8,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(44, 41, 49);
+    background-color: rgb(0, 0, 0);
     padding: 20px;
     color: rgb(255, 255, 255);
 }
@@ -21,30 +20,23 @@ header {
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
-    font-size: 20px;
-}
-
-
-header nav ul {
-    list-style-type: none;
+    font-size: 24px;
 }
 
 header nav ul li {
     display: inline-block;
-    text-decoration: underline;
     margin-left: 25px;
 }
 
-.hero img {
-    height: 205px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-size: cover;
-    background-position: center;
+.top {
+    padding: 60px;
+    background: #3a1178;
 }
 
 p {
     line-height: 1.5;
+    padding-bottom: 20px;
+    font-size: 20px;
 }
 
 .page {
@@ -58,7 +50,7 @@ p {
 .page>h2 {
     flex: 0 0 20%;
     text-align: right;
-    line-height: 1.1;
+    line-height: 1.5;
 }
 
 .page>div {
@@ -72,17 +64,8 @@ p {
     align-items: flex-start;
 }
 
-.item {
-    flex: 0 0 250px;
-}
-
 .item img {
     width: 100%;
-}
-
-.item:first-child {
-    flex-basis: 100%;
-    flex-wrap: wrap;
 }
 
 .item:nth-child(2) {
@@ -103,20 +86,23 @@ p {
 
 .contactMe ul li {
     display: inline-block;
+    margin-left: 150px;
+    font-size: 22px;
 }
 
 .content h2 {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .item {
     border-style: solid;
-    border-width: 1px;
-    border-color: white;
+    border-width: 5px;
+    border-color: rgba(0, 0, 0, 0.891);
+    padding: 5px;
 }
 
 .item:hover {
-    box-shadow: inset 0px 0px 8px black, 0px 0px 15px black;
+    box-shadow: inset 0px 0px 8px #3a1178, 0px 0px 15px #3a1178;
 }
 
 #contactMe div {
@@ -127,7 +113,4 @@ p {
     font-size: 40px;
 }
 
-.item {
-    flex-grow: 1;
-}
 
