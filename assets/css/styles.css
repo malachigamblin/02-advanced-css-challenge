@@ -73,8 +73,8 @@ p {
     position: absolute;
     bottom: 10px;
     left: 0px;
-    background-color: white;
-    color: black ;
+    background-color: whitesmoke;
+    color: black;
     margin-left: 4px;
     margin-top: 10px;
 }
@@ -129,10 +129,12 @@ p {
 
 .contactMe ul li {
     display: inline-block;
-    margin-left: 100px;
+    margin-left: 90px;
     font-size: 22px;
     padding-top: 20px;
+    margin-right: 0px;
 }
+
 
 .content h2 {
     font-size: 40px;
@@ -156,12 +158,31 @@ p {
     align-items: center;
 }
 
-@media (max-width: 800px) {
-    #contactMe div {
+@media screen and (max-width: 768px) {
+    #contactMe div ul {
         display: flex;
         flex-direction: column;
-        justify-content: left;
-        align-items: left;
-        
+        justify-content: right;
+        align-items: right;
+        padding-top: 100px;
+    }
+
+    #contactMe div ul li {
+        justify-content: flex-end;
+        flex-basis: 100%;
+        justify-content: right;
+    }
+
+    .header nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        align-items: right;
+    }
+
+    .header nav ul li {
+        justify-content: flex-end;
+        flex-basis: 100%;
+        justify-content: right;
     }
 }
