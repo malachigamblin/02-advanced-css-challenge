@@ -1,4 +1,4 @@
-# 02-advanced css challenge: professional portfolio
+# professional-portfolio-challenge
 
 ## Descripton
 This README file outlines the requirements for a potential employee's portfolio. It specifies that the portfolio must include the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them. The UI must also be able to scroll to the corresponding section when a link is clicked, with titled images of the developer's applications in the section about their work. The first application's image should be larger than the others, and clicking on the images should take the user to the deployed application. Additionally, the portfolio must have a responsive layout that adapts to the viewport when the page is resized or viewed on various screens and devices.
