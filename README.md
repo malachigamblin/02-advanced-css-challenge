@@ -9,4 +9,10 @@ This README file outlines the requirements for a potential employee's portfolio.
 
 <img width="1512" alt="Screenshot 2023-02-06 at 10 26 20 PM" src="https://user-images.githubusercontent.com/118701306/217141300-71117358-d2f1-431c-8258-4cdea40853ea.png">
 
-https://malachigamblin.github.io/css-portfolio-challenge/ 
+## Link
+
+Link to deployed application: https://malachigamblin.github.io/advanced-css-challenge-professional-portfolio/
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
